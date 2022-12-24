@@ -25,7 +25,7 @@ function reducer(state, action) {
       return{
         count:Number(state.count) - Number(state.subNum),
         addNum:state.addNum,
-        subnum:state.subNum,
+        subNum:state.subNum,
       };
  
    
