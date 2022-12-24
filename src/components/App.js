@@ -21,7 +21,7 @@ function reducer(state, action) {
         addNum: state.addNum,
         subNum: state.subNum
       };
-      case ACTION.DECREMENT:
+      case ACTIONS.DECREMENT:
       return{
         count:Number(state.count) - Number(state.subNum),
         addNum:state.count,
